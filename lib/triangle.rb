@@ -16,8 +16,9 @@ class Triangle
       else
         :scalene
       end
-    else 
-      raise
+    else
+      raise TriangleError
+    end
   end
 
   def valid?
